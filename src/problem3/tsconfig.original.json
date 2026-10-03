@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // The original has unused variables too, but those are style; keep the output focused on real errors.
+    "noUnusedLocals": false
+  },
+  "files": ["external.d.ts", "WalletPage.original.tsx"]
+}
